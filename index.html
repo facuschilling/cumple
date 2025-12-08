@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Invitación Cumple Facu 🎉</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="card">
+    <h1>🎂¡Estás Invitado!🎉</h1>
+    <h2>Mi Cumpleaños</h2>
+
+    <img src="cumpleanos.png" alt="Cumpleaños Facu" class="foto">
+
+    <div class="contador">
+      <p>🕒 Falta:</p>
+      <div id="tiempo"></div>
+    </div>
+
+    <div class="info">
+      <p><strong>📅 Fecha:</strong> 15 de Diciembre 2025</p>
+      <p><strong>⏰ Hora:</strong> 21:00 hs</p>
+      <p><strong>📍 Lugar:</strong> Quinta Palos Negros</p>
+    </div>
+
+    <a href="https://maps.app.goo.gl/Ja6ZXiw4WNvVX3Jh7" class="btn maps" target="_blank">📍 Cómo llegar</a>
+
+    <div class="confirmacion">
+      <h3>✅ Confirmá tu asistencia</h3>
+      <input type="text" id="nombre" placeholder="Tu nombre...">
+      <button class="btn whatsapp" onclick="confirmarAsistencia()">Confirmar por WhatsApp</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
